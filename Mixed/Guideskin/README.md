@@ -1,12 +1,11 @@
 # Multimodal skin characterisation explorer (simulated data)
 
 A demo for multimodal characterisation analysis use to define which skin descriptors related the most to a molecule's skin permeation performance under different skin state (in vivo vs ex vivo, healthy vs wounded). 
-> all data are simulated with reference. The notebook just to show a simplified pipeline (preprocessing)
-The proposed framework is available in `Main_framework.png`, the explored application idea is available in `Probable_application.png`.
+> all data are simulated with reference. The notebook just to show a simplified pipeline of the framework. The proposed framework structure is available in `Main_framework.png`, the explored application idea is available in `Probable_application.png`.
 
 ## Use of AI assistance
 
-AI assistant (Claude) was used for building the simulators and modelling codes. The author is responsible for the scientific and analytical decisions and does:
+AI assistant (Claude) was used for building the simulators, parts of the descriptor extraction, and modelling block. The author is responsible for the scientific and analytical decisions and does:
 - the choice of which data, literature values and parameters to use;
 - verification of the simulator against the reference numbers;
 - debugging and quality control of every cell and result;
